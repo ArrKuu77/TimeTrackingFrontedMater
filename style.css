@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,400;1,300;1,400&display=swap');
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Rubik";
+    background-color: hsl(226, 43%, 10%);
+    /* max-width: 1440px; */
+}
+
+.Mother{
+    max-width: 1440px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ProfileContainer{
+    border-radius: 20px;
+    width: 500px;
+}
+.ProfileAbsoluteColum{
+    padding: 10%;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+
+}
+
+.profileImg{
+    width: 30%;
+    height: 40%;
+    border-radius: 50%;
+    border: solid 3px white;
+    margin-bottom: 30px;
+}
+.ReportDiv{
+    color: hsl(236, 100%, 87%);
+}
+.JeremyRobson{
+    color: white;
+    font-size: 250%;
+    margin-bottom: 25%;;
+}
+.ProfileUnderColum{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    width: 86%;
+}
+.DWM{
+    padding: 10%;
+    margin-bottom:10px ;
+    color:  hsl(235, 45%, 61%);
+}
+.DWMwhitecolour{
+    color: white;
+}
+.DWMColum{
+    padding: 5% 0%;
+    cursor: pointer;
+    user-select: none;
+}
+.DWMColum:hover{
+    color: white;
+}
+.LiveContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.FirstColum,.SecondColum{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0%;
+}
+.Work,.Play,.Study,.Social,.Care{
+    margin-right: 3%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    width: 300px;
+    background-position: 92% -0.5rem;
+    margin-top: 3%;
+}
+.Exercise{
+    margin-right: 3%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    width: 300px;
+    background-position: 92% -0.1rem;
+    margin-top: 3%;
+}
+.Work{
+    background-image: url(./images/icon-work.svg);
+    background-color: hsl(15, 100%, 70%);
+}
+.Play{
+    background-image: url(./images/icon-play.svg);
+    background-color: hsl(195, 74%, 62%);
+}
+.Study{
+    background-image: url(./images/icon-study.svg);
+    background-color: hsl(348, 100%, 68%);
+}
+.Exercise{
+    background-image: url(./images/icon-exercise.svg);
+    background-color: hsl(145, 58%, 55%);
+}
+.Social{
+    background-image: url(./images/icon-social.svg);
+    background-color: hsl(264, 64%, 52%);
+}
+.Care{
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(./images/icon-self-care.svg);
+}
+.WorkText,.PlayText,.StudyText,.ExerciseText,.SocialText,.CareText{
+    background-color: hsl(235, 46%, 20%);
+    margin-top: 16%;
+    padding: 6% 10%;
+    color: white;
+    border-radius: 15px;
+}
+.WorkHead,.PlayHead,.StudyHead,.ExerciseHead,.SocialHead,.CareHead{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.WorkHrs,.PlayHrs,.StudyHrs,.ExerciseHrs,.SocialHrs,.CareHrs{
+    margin-top: 10%;
+    font-size: 60px;
+}
+/* .WorkFooder,.PlayFooder,.StudyFooder,.ExerciseFooder,.SocialFooder,.SlefCareFooder{
+    margin: 10% 0%;
+    color: hsl(236, 100%, 87%);
+} */
+.WLWhrs,.PLWhrs,.STWhrs,.EXCWhrs,.SOCWhrs,.SFCWhrs{
+    display: inline-block;
+    margin: 8% 0%;
+    color: hsl(236, 100%, 87%);
+}
+.hovery:hover{
+    color: white;
+}
+@media (max-width: 475px) {
+    .Mother{
+        margin: 10% auto;
+        display: inline;
+    }
+    .ProfileContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .ProfileUnderColum{
+        width: 85%;
+    }
+    .ProfileAbsoluteColum{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 9% 2%;
+    }
+    .profileImgDiv{
+       
+        width: 25%;
+    }
+    .profileImg{
+        width: 70%;
+        margin: 0%;
+    }
+    .fooder{
+       padding-bottom: 4%;
+    }
+    .JeremyRobson{
+        font-size: 25px;
+        margin: 0%;
+    }
+    .DWM{
+        padding: 5% 7%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .LiveContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .WorkHrs,.StudyHrs,.SocialHrs,.ExerciseHrs,.PlayHrs,.CareHrs{
+        margin: 5% 0%;
+        font-size: 40px;
+        display: inline-block;
+    }
+    .fooderLC{
+        display: flex;
+        justify-content: space-between;
+    }
+    .regularcard {
+        width: 85%;
+        margin-right: 0%;
+        margin-top: 6%;
+    }
+    .WorkText,.SocialText,.CareText,.ExerciseText,.PlayText,.StudyText{
+        padding: 6% 6%;
+        margin-top: 11%;
+    }
+
+}
